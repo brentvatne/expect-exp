@@ -1,0 +1,19 @@
+{
+  "name": "expect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art": "0.10.0",
+    "react-redux": "^0.6.0",
+    "react-timer-mixin": "^0.13.2",
+    "react-native": "ide/react-native",
+    "redux": "^1.0.0-rc",
+    "underscore": "^1.8.3"
+  }
+}
