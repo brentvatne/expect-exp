@@ -8,6 +8,7 @@ var {
   StatusBarIOS,
 } = React;
 
+let WithOverpassFont = require('WithOverpassFont');
 
 class NavigationBar extends React.Component {
   componentWillMount() {
@@ -20,9 +21,11 @@ class NavigationBar extends React.Component {
         <View style={{position: 'absolute', top: 0, left: 0, right: 0, height: 20, backgroundColor: '#465F65',}} />
 
         <View style={{paddingTop: 12}}>
-          <Text style={{textAlign: 'center', color: '#fff', fontSize: 18,}}>
-            What to expect
-          </Text>
+          <WithOverpassFont>
+            <Text style={{textAlign: 'center', color: '#fff', fontSize: 18, fontFamily: 'Overpass',}}>
+              What to expect
+            </Text>
+          </WithOverpassFont>
         </View>
       </View>
     )
